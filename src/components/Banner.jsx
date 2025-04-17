@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
-
+ console.log(index)
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Muhammad Waqar`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>heheh</p>
+                  <p> I completed my Bachelor's degree in Computer Science from Sindh Madressatul Islam University in 2024. I have also completed a Web Development course from Saylani. In addition to my academic background, I have done internships at two different organizations where I gained valuable hands-on experience and significantly enhanced my skills in the field.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

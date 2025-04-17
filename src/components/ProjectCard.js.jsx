@@ -9,6 +9,8 @@ export const ProjectCard = ({ title, description, imgUrl , siteUrl}) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <br />
+          <span>To Vist Click Any Where In The Card</span>
         </div>
       </div>
         </a>
