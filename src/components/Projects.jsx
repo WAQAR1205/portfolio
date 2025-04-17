@@ -14,6 +14,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      siteUrl: "https://redstorev1.netlify.app/"
     },
     {
       title: "Business Startup",
