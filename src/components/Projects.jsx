@@ -34,7 +34,7 @@ export const Projects = () => {
     },
     {
       title: "Random Password Generator",
-      description: "This project is a real-time code editor in which you can use HTML, CSS, and JS in real time.",
+      description: "Create secure, random passwords based on your user-selected options like length, numbers, symbols. quick, easy, and built with HTML, CSS, and JavaScript.",
       imgUrl: projImg7,
       siteUrl: "https://ramdon-password-generator.netlify.app/"
     },
